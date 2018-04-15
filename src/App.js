@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './home';
-import Card from './card';
+import Dashboard from './dashboard';
 import Ranking from './ranking';
 import './App.css';
 
@@ -24,7 +24,7 @@ class App extends Component {
           <Home select={this.selectPath}/>
         : null }
         {path === 'trivia' ?
-          <Card select={this.selectPath} />
+          <Dashboard select={this.selectPath} />
          : null}
 
         {path === 'ranking' ?
