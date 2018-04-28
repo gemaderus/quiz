@@ -1,0 +1,29 @@
+.position-holder {
+  background-color: #29394E;
+  padding: 0.86rem 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.position-info {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.position-info h4{
+  color: #C3D6EF;
+  margin-bottom: 0.6rem;
+  opacity: 0.43;
+}
+
+.position-counter {
+  font-size: 1.8rem;
+  margin-right: 1.2rem;
+}
+
+.position-number {
+  margin-top: 3px;
+}
+
+
+

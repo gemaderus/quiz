@@ -1,0 +1,58 @@
+.score-holder {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 36px);
+}
+
+.score-holder header {
+  margin-bottom: 3rem;
+}
+
+.score-intro {
+  margin-bottom: 3rem;
+}
+.score-intro .rounded {
+  font-size: 4.3rem;
+  margin: 0 auto 1.6rem;
+}
+
+.score-message {
+  max-width: 320px;
+  margin: 0 auto; 
+  text-transform: none;
+  font-size: 4.4rem;
+  margin-bottom: 4.4rem;
+}
+
+.score-action {
+  display: flex;
+  flex-direction: column;
+  max-width: 354px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.score-action input {
+  text-transform: uppercase;
+  border: 1px solid #2E4058;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+.score-action input, 
+.score-action .btn {
+  border-radius: 10px;
+  padding: 1.95rem 1rem;
+}
+
+.score-content {
+  flex: 1;
+}
+
+

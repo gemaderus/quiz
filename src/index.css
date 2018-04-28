@@ -1,5 +1,56 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'centrale_sans_boldbold';
+  background-color: #1A2636;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: 'centrale_sans_boldbold';
+  src: url('/fonts//fonts/typedepot_-_centralesans-bold-webfont.eot');
+  src: url('/fonts/typedepot_-_centralesans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/typedepot_-_centralesans-bold-webfont.woff2') format('woff2'),
+  url('/fonts/typedepot_-_centralesans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

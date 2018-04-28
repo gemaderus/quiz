@@ -1,0 +1,58 @@
+.home-hero {
+  width: 27.6rem;
+  height: 24.4rem;
+  margin: 0 auto 4.6rem;
+  background-image: url(/images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.home-title {
+  margin-bottom: 3.6rem;
+}
+
+.home-content h2 {
+  margin-bottom: 2.6rem;
+  color: #fff;
+}
+
+.home-play {
+  margin-bottom: 1.6rem;
+}
+
+/* .icon-holder {
+  position: relative;
+} */
+.icon-holder svg {
+  display: block;
+} 
+
+.icon-message {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.phones {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.home-ranking {
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #4D5D74;
+}
+
+.footer {
+  color: #677A93;
+  opacity: 0.67;
+  font-size: 1.2rem;
+}

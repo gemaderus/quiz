@@ -1,0 +1,29 @@
+.winners {
+  color: #fff;
+  padding-top: 7rem;
+}
+
+.winner {
+  margin-bottom: 4rem;
+}
+
+.winner h4 {
+  margin-bottom: 0.8rem;
+}
+
+.font-gold {
+  color: #F8B64C;
+}
+
+.font-silver {
+  color: #D3D3D3;
+}
+
+.font-bronze {
+  color: #BA7B42;
+}
+
+.icon-trophy {
+  display: inline-block;
+  margin-bottom: 1.6rem;
+}
